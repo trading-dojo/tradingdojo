@@ -1,18 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { ChakraProvider } from '@chakra-ui/react';
-import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 import './index.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <ChakraProvider>
-      <Router>
+const container = document.getElementById('root');
+if (container) {
+  const root = createRoot(container);
+  root.render(
+    <React.StrictMode>
+      <ChakraProvider>
         <App />
-      </Router>
-    </ChakraProvider>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
+      </ChakraProvider>
+    </React.StrictMode>
+  );
+} else {
+  console.error('Root container missing in index.html');
+}
