@@ -37,14 +37,14 @@ const Course: React.FC = () => {
               />
               <Heading as="h3" fontSize={19} mb="2" fontFamily="Oswald, sans-serif" fontWeight="bold">
                 <Text as="span" color="white" >
-                1:1 Mentorship
+                1:1 ICT Mentorship
                 </Text>
               </Heading>
             </Link>
             <Text fontSize={14} mb="4">
-            Personal guidance tailored to your unique trading needs and goals.
+            Study under the master of time based concepts. Fill the missing pieces in your trading journey until you are profitable.
             </Text>
-            <Text fontSize="lg" color="green.300" fontWeight="bold">
+            <Text fontSize="lg" color="#00b6ff" fontWeight="bold">
               $500
             </Text>
           </Box>
@@ -72,14 +72,14 @@ const Course: React.FC = () => {
               />
               <Heading as="h3" fontSize={19} mb="2" fontFamily="Oswald, sans-serif" fontWeight="bold">
                 <Text as="span" color="white">
-                9 Models
+                9 Profitable Models
                 </Text>
               </Heading>
             </Link>
             <Text fontSize={14} mb="4">
-            Master nine essential trading models for consistent market success.
+            Master nine time based trading models that have passed countless funded accounts.
             </Text>
-            <Text fontSize="lg" color="green.300" fontWeight="bold">
+            <Text fontSize="lg" color="#00b6ff" fontWeight="bold">
               $250
             </Text>
           </Box>
@@ -112,9 +112,9 @@ const Course: React.FC = () => {
               </Heading>
             </Link>
             <Text fontSize={14} mb="4">
-                    Advanced trading techniques and insights.Weekly Live Trading Calls
+                Join the family in Dojo Vip. Weekly Live Trading Calls and Analysis.
             </Text>
-            <Text fontSize="lg" color="green.300" fontWeight="bold">
+            <Text fontSize="lg" color="#00b6ff" fontWeight="bold">
               $50 per Month
             </Text>
           </Box>

@@ -15,7 +15,7 @@ import photo1 from './images/dj-removebg.png';
 
 const Navbar: React.FC = () => {
   return (
-    <Box bg="#383838" px={4} boxShadow="sm" className="nav" fontFamily="'Avenir Next', sans-serif">
+    <Box bg="black" px={4} boxShadow="sm" className="nav" fontFamily="'Avenir Next', sans-serif">
       {/* Título com linha inferior vermelha */}
       <Box borderBottom="1px" borderBottomColor="#484848" color="white" textAlign="center" py={2} fontSize="xl">
         <b>Unlock Your Path To Financial Freedom</b>
@@ -31,6 +31,7 @@ const Navbar: React.FC = () => {
                 as={IconButton}
                 aria-label="Options"
                 icon={<HamburgerIcon />}
+  
                 variant="outline"
                 size="md"
                 colorScheme="red"
@@ -53,7 +54,7 @@ const Navbar: React.FC = () => {
           </Flex>
 
           {/* Logo ou nome da empresa */}
-          <img src={photo1} alt="Logo da Empresa" style={{ height: '90px', marginRight: '10px', width: '120px' }} />
+          {/* <img src={photo1} alt="Logo da Empresa" style={{ height: '90px', marginRight: '10px', width: '120px' }} /> */}
 
           <Flex display={{ base: 'none', md: 'flex' }} alignItems="center" ml={4}>
             <Link as={RouterLink} to="/" mr={4} color="white">

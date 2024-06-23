@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Heading, Text, Link as ChakraLink, Flex, Image, Center } from '@chakra-ui/react';
 import photo1 from "./images/cert1.jpg"
 import photo2 from "./images/cert2.jpg"
+import photo3 from './images/dj-removebg.png';
 import { Link as RouterLink } from 'react-router-dom';
 
 const Home: React.FC = () => {
@@ -16,6 +17,17 @@ const Home: React.FC = () => {
       maxW="800px"
       mx="auto"
     >
+
+<Center>
+        {/* Logo Responsivo */}
+        <Image 
+          src={photo3} 
+          bg={"white"}
+          alt="Logo da Empresa" 
+          boxSize={{ base: '80px', md: '120px' }} // Ajusta o tamanho do logo para diferentes tamanhos de tela
+          mb="4" 
+        />
+      </Center>
       <Center>
         <Heading as="h1" size="2xl" mb="4" fontFamily="Oswald, sans-serif" fontWeight="bold" mt={10}>
           You're Just One Trade Away From Financial Freedom...
@@ -23,12 +35,12 @@ const Home: React.FC = () => {
       </Center>
 
       <Center>
-  <Text fontSize="l" mt="4" color="#40f503">
+  <Text fontSize="l" mt="4" color="#00b6ff">
     <ChakraLink 
       as={RouterLink}  // Utilize o RouterLink aqui
       to="/course"  // Defina o "to" para a rota correta
       border="2px" 
-      borderColor="#40f503" 
+      borderColor="#00b6ff" 
       px="4" 
       py="2" 
       borderRadius="md" 
@@ -49,24 +61,24 @@ const Home: React.FC = () => {
 
         <Center>
           <Text fontSize="xl" textAlign="center" mb="4">
-            Welcome to The Trading Dojo, your gateway to mastering the art of day trading and achieving profitable results in the dynamic world of financial markets.
+          Welcome to The Trading Dojo, your gateway to mastering the art of day trading and achieving profitable results through our time based concepts.
           </Text>
         </Center>
 
         <Center>
           <Text fontSize="xl" textAlign="center" mb="4">
-            At The Trading Dojo, we are dedicated to empowering individuals with the knowledge, skills, and strategies needed to navigate the fast-paced world of day trading successfully.
+          I will cut the corners right away and tell you that its not okay to jump strategy from strategy. There is a true way the market operates. That true way is time and that is exactly what we teach in our community.
           </Text>
         </Center>
 
         <Center>
           <Text fontSize="xl" textAlign="center" mb="4">
-            We understand that day trading can seem complex and overwhelming to beginners. That's why our mission is to simplify the process and provide you with a comprehensive education that demystifies the world of trading. Whether you're a complete novice or an experienced trader looking to refine your skills, our carefully designed courses and resources cater to all skill levels.
+          We understand that studying something like this can seem overwhelming to beginners. Especially if you still doubt that it can work out for you. That’s why our mission is to simplify the process and provide you with weekly results to motivate you. Whether you’re a complete noob or an experienced trader looking to refine your skills, in the Trading Dojo, you’ll fill all the missing pieces.
           </Text>
         </Center>
 
         <Center>
-          <Text fontSize="l" textAlign="center" mb="4" color="#40f503">
+          <Text fontSize="l" textAlign="center" mb="4" color="#00b6ff">
             <ChakraLink 
               as="a" 
               href="https://discord.gg/yqqn3s2PqY" 
@@ -92,7 +104,7 @@ const Home: React.FC = () => {
       Results
     </Heading>
     <Text fontSize="15" mt={2} ml={0} maxW="80%" textAlign="justify" mx="auto">
-      Direct results from completing our comprehensive ETU Day Trading Course. 
+    Direct Results From Our Mentor At The Trading Dojo.
     </Text>
   </Box>
 
