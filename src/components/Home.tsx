@@ -18,7 +18,7 @@ const Home: React.FC = () => {
       px="4"
       maxW="800px"
       mx="auto"
-      
+
     >
 
 <Center>
@@ -103,12 +103,16 @@ const Home: React.FC = () => {
       <Box mt="8">
       <Center flexDirection="column">
   <Box textAlign="center" mb={4} w="100%">
-    <Heading as="h3" size="lg" fontFamily="Oswald, sans-serif" fontWeight="bold">
+    <Heading as="h3" size="lg" fontFamily="Oswald, " fontWeight="bold">
       Results
     </Heading>
-    <Text fontSize="15" mt={2} ml={0} maxW="80%" textAlign="justify" mx="auto">
-    Direct Results From Our Mentor At The Trading Dojo.  Learn How Today 
-    </Text>
+    <Heading as="h3" size="l"  >
+    Direct Results From Our Mentor At The Trading Dojo.  Learn How Today
+    </Heading>
+      {/* <Text fontSize="15" mt={2}  ml={0} maxW="80%" textAlign="justify" mx="auto" >
+      Direct Results From Our Mentor At The Trading Dojo.  Learn How Today 
+      </Text> */}
+    
   </Box>
 
   <Flex direction={{ base: 'column', md: 'row' }} alignItems="center" justifyContent="center" mb="4" gap={30}>
