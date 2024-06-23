@@ -11,7 +11,7 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
 import { Link as RouterLink } from 'react-router-dom';
-import photo1 from './images/dj-removebg.png';
+// import photo1 from './images/dj-removebg.png';
 
 const Navbar: React.FC = () => {
   return (
