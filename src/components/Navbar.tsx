@@ -9,9 +9,9 @@ import {
   MenuList,
   MenuItem,
 } from '@chakra-ui/react';
-import photo1 from "./images/dj-removebg.png"
 import { HamburgerIcon } from '@chakra-ui/icons';
 import { Link as RouterLink } from 'react-router-dom';
+import photo1 from "./images/dj-removebg.png";
 
 const Navbar: React.FC = () => {
   return (
@@ -55,16 +55,16 @@ const Navbar: React.FC = () => {
                   colorScheme="red"
                 />
                 <MenuList backgroundColor="#383838" color="white">
-                  <MenuItem as={RouterLink} to="/" onClick={() => {}} bg={"#383838"}>
+                  <MenuItem as={RouterLink} to="/" bg={"#383838"}>
                     Home
                   </MenuItem>
-                  <MenuItem as={RouterLink} to="/course" onClick={() => {}} bg={"#383838"}> 
+                  <MenuItem as={RouterLink} to="/course" bg={"#383838"}>
                     Courses
                   </MenuItem>
-                  <MenuItem as={RouterLink} to="/contact" onClick={() => {}} bg={"#383838"}>
+                  <MenuItem as={RouterLink} to="/contact" bg={"#383838"}>
                     Contact
                   </MenuItem>
-                  <MenuItem as={RouterLink} to="/terms" onClick={() => {}} bg={"#383838"}>
+                  <MenuItem as={RouterLink} to="/terms" bg={"#383838"}>
                     Terms
                   </MenuItem>
                 </MenuList>
