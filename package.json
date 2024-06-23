@@ -1,5 +1,6 @@
 {
   "name": "tradingdojo",
+  "homepage": "https://trading-dojo.github.io/tradingdojo/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
