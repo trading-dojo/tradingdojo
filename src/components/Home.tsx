@@ -8,7 +8,6 @@ const Home: React.FC = () => {
   return (
     <Box 
       id="home" 
-       
       color="white" 
       fontFamily="'Avenir Next', sans-serif"
       textAlign="center"
