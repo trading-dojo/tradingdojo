@@ -2,6 +2,8 @@ import React from 'react';
 import { Box, Heading, Text, Link as ChakraLink, Flex, Image, Center } from '@chakra-ui/react';
 import photo1 from "./images/cert1.jpg"
 import photo2 from "./images/cert2.jpg"
+import photo4 from "./images/cert3.jpg"
+import photo5 from "./images/cert4.jpg"
 import photo3 from './images/dj-removebg.png';
 import { Link as RouterLink } from 'react-router-dom';
 
@@ -104,7 +106,7 @@ const Home: React.FC = () => {
       Results
     </Heading>
     <Text fontSize="15" mt={2} ml={0} maxW="80%" textAlign="justify" mx="auto">
-    Direct Results From Our Mentor At The Trading Dojo.
+    Direct Results From Our Mentor At The Trading Dojo.  Learn How Today 
     </Text>
   </Box>
 
@@ -127,6 +129,33 @@ const Home: React.FC = () => {
       borderRadius="md" 
       mb={{ base: 4, md: 0 }} 
     />
+
+   
+
+  </Flex>
+  <Flex direction={{ base: 'column', md: 'row' }} alignItems="center" justifyContent="center" mb="4" gap={30}>
+    
+
+   <Image 
+      src={photo4} 
+      alt="Results Image" 
+      style={{height:"300px", width:"600px"}}
+      boxSize={{ base: '100%', md: '50%' }} 
+      objectFit="cover" 
+      borderRadius="md" 
+      mb={{ base: 4, md: 0 }} 
+    />
+     <Image 
+      src={photo5} 
+      alt="Results Image" 
+      style={{height:"300px", width:"600px"}}
+      boxSize={{ base: '100%', md: '50%' }} 
+      objectFit="cover" 
+      borderRadius="md" 
+      mb={{ base: 4, md: 0 }} 
+    />
+
+
   </Flex>
 </Center>
 
