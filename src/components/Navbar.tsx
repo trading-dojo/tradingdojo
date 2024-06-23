@@ -15,7 +15,7 @@ import { Link as RouterLink } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   return (
-    <Box bg="black" px={4} boxShadow="sm" className="nav" fontFamily="'Avenir Next', sans-serif">
+    <Box bg="#0f0f0f" px={4} boxShadow="sm" className="nav" fontFamily="'Avenir Next', sans-serif">
       {/* Título com linha inferior vermelha */}
       <Box borderBottom="1px" borderBottomColor="#484848" color="white" textAlign="center" py={2} fontSize="xl">
         <b>Unlock Your Path To Financial Freedom</b>

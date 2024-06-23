@@ -12,7 +12,7 @@ import { Box } from '@chakra-ui/react';
 const App: React.FC = () => {
   return (
     <BrowserRouter basename="/tradingdojo">
-      <Box display="flex" flexDirection="column" minHeight="100vh" bg="black" color="white">
+      <Box display="flex" flexDirection="column" minHeight="100vh" bg="#0f0f0f" color="white">
         <Navbar />
         <Box as="main" flex="1" p={5}>
           <Routes>
