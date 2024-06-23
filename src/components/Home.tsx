@@ -18,6 +18,7 @@ const Home: React.FC = () => {
       px="4"
       maxW="800px"
       mx="auto"
+      
     >
 
 <Center>
